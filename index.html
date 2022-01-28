@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="10 url=C:\Users\dell\Music\Downloads\drive-download-20220128T070710Z-001\main\check_HTML_QUIZ\main.html">
+    <title>redirecting</title>
+
+    <script>
+      window.console = window.console || function (t) {};
+    </script>
+
+    <script>
+      if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage("resize", "*");
+      }
+    </script>
+  </head>
+
+  <body translate="no", bgcolor="#87ceeb">
+   
+    <div id="ody">
+    
+      <h1 style="color: gray">Please Wait For 10 Seconds To Continue To Quiz Page.</h1>
+    <div id="clock">
+      <span id="seconds">10</span>
+    </div>
+  </div> 
+  <style>
+      body{
+    margin:0;
+  }
+  #body {
+    padding-bottom: 30px;
+    margin: 0;
+    
+  }
+  h1{  margin: auto;
+    text-align: center;
+    padding-top: 60px;
+  
+
+  }
+  #clock {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: rgb(150, 125, 125);
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 60px;
+
+  }
+
+  span {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding-top: 45px;
+    text-align: center;
+    font-size: 125px;
+  }
+  </style>
+<script>
+  timeLeft = 10;
+
+function countdown() {
+  timeLeft--;
+  document.getElementById("seconds").innerHTML = String(timeLeft);
+    if (timeLeft > 0) {
+    setTimeout(countdown, 1000);
+  }
+}
+
+setTimeout(countdown, 1000);
+
+</script>
+</body>
+</html>
