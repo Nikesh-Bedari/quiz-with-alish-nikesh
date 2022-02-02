@@ -5,3 +5,5 @@ Development.
 #To see the live demo of the above codes...follow the below link
 ![nikesh](https://github.com/Nikesh-Bedari/quiz-with-alish-nikesh/blob/master/nikesh.jpg)
 https://nikesh-bedari.github.io/quiz-with-alish-nikesh/
+
+[<img alt="nikesh" src="https://github.com/Nikesh-Bedari/quiz-with-alish-nikesh/blob/master/nikesh.jpg" />](https://nikesh-bedari.github.io/quiz-with-alish-nikesh/)
